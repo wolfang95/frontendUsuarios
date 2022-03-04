@@ -1,0 +1,17 @@
+
+
+    <div class="h1">
+    <h1 class="h">facebook</h1>
+    <p class="pr">Facebook helps you connect and share with the people in your life.</p>
+    </div>
+          <form #myform = "ngForm" (ngSubmit) = "onSubmit(myform)" class="main">
+            <input type="text"  name = "email" placeholder="Email address or phone number" class="txt" ngModel><br>
+            <input type="password" name = "password"  placeholder="Password" class="txt" ngModel><br>
+            <input type="submit" value = "Send" class="login-btn"><br>
+            <div class="a-link">
+            <a href="" class="link">Forgotten Password?</a>
+            </div>
+            <div class="ca">
+                <a href="" class="pca">Create New Account</a>
+            </div>
+            </form>
